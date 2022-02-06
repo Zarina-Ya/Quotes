@@ -1,0 +1,149 @@
+body{
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-size: 25px;
+    line-height: 1.2;
+    font-weight: normal;
+    background: url(img/img3.jpg) no-repeat;
+    background-size:cover;
+    color: white;
+   
+}
+
+
+
+
+.logo{
+    font-family: 'Playfair Display', serif;
+    font-size: 129px;
+    /*text-align:center;*/
+    color:white;
+}
+
+.header_nov{
+
+
+}
+
+/*.container{
+    font-family: 'Raleway', sans-serif;
+    font-size: 60px;
+    color: white;
+}*/
+*{
+    color:white;
+}
+/*.sub{
+    size:100px;
+    color: black;
+}*/
+
+.header_wrapper{
+    display: flex;
+    flex-wrap: wrap;/* перенос контента */
+    align-items: flex-end;
+    justify-content: space-between;
+    padding-top: 56px;
+}
+
+
+.wrapper{
+    max-width: 1440px;
+    margin: 0 auto;
+
+}
+
+/*.header{
+  /* position: fixed;
+   top: 0;
+   left: 0; 
+   width: 100%;}*/
+
+
+.header_list{
+    display: flex;
+    flex-wrap: wrap;
+}
+.header_item{
+    margin-right: 152px;
+}
+
+.header_link{
+    font-size: 30px;
+    line-height: 80px;
+    color:white;
+    text-decoration: none;
+   
+}
+li {
+    list-style-type: none;
+    /* Убираем маркеры */
+  }
+
+.header_logo-link{
+    font-family: 'Playfair Display';
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.intro{
+    padding-top: 50px;
+}
+
+.intro_tite{
+   
+    font-size: 50px;
+    line-height: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align:center;
+    color:white;
+
+    padding-top: 20px;
+    
+}
+.search-form_field{
+    width: 297px;
+    height: 50px;
+    background:transparent no-repeat left center;
+    background-size: 20px;
+    border: 0;
+    border-bottom: 2px solid white;
+    margin-top: 30px;
+    padding-left: center;
+    font-size: 30px;
+}
+
+.search-form-wrap{
+    border: 0;
+    text-align:center; 
+}
+
+.search-form_field::placeholder{
+    font-size: 30px;
+    font-family: 'Raleway';
+    color:white;
+}
+
+.search-form_submit{
+    margin-top: 30px;
+    font-family: 'Raleway';
+    font-size: 30px;
+    padding: 15px 39px;
+    color:white;
+    background:transparent no-repeat left center;
+    background-size: 20px;
+  
+}
+
+textarea{
+    margin-top: 30px;
+    font-family: 'Raleway';
+    font-size: 30px;
+    padding: 15px 39px;
+    
+    
+    background-size: 20px;
+   
+    color: black;
+}

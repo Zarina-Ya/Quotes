@@ -1,0 +1,6 @@
+3602=:People:woman
+6850=:Hello:World
+9070=:Tell:People
+1815=:Zarinka:Yakubova
+5647=:Sasha:Bomd
+2649=:Vadimka:kul
